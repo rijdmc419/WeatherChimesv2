@@ -85,3 +85,20 @@ Multiplexer:
   ]
 }
 
+
+
+Parsed Sent JSON
+
+{
+   "feeds": {
+    "TSL2591_5-Vis": 6,
+    "TSL2591_5-IR": 7,
+     "SHT31D_6-temp": 23,
+     "SHT31D_6-humid": 48,
+     "STEMMA_7-temperature": 25   
+}
+
+
+
+
+
