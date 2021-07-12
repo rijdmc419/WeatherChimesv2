@@ -1,0 +1,22 @@
+"{\
+  'general':\
+  {\
+    'name':'Rij',\
+    'instance':4,\
+    'interval':2000\
+  },\
+  'components':[\
+    {\
+      'name':'Analog',\
+      'params':'default'\
+    },\
+    {\
+      'name':'Multiplexer',\
+      'params':'default'\
+     },\
+    {\
+      'name':'WiFi',\
+      'params':['NETGEAR33','tinybolt321']\
+    }\
+  ]\
+}"

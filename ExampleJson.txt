@@ -1,0 +1,87 @@
+Basic:
+
+[Device] Json:
+{
+  "type": "data",
+  "id": {
+    "name": "Device",
+    "instance": 1
+  },
+  "contents": [
+    {
+      "module": "Packet",
+      "data": {
+        "Number": 16
+      }
+    },
+    {
+      "module": "Analog",
+      "data": {
+        "Vbat": 4.336084,
+        "voltage[0]": 1.264893,
+        "voltage[1]": 1.272949,
+        "voltage[2]": 1.320483,
+        "voltage[3]": 1.137598,
+        "voltage[4]": 1.307593,
+        "voltage[5]": 1.286646
+      }
+    }
+  ]
+}
+
+
+
+Multiplexer:
+
+
+[Device] Json:
+{
+  "type": "data",
+  "id": {
+    "name": "Device",
+    "instance": 1
+  },
+  "contents": [
+    {
+      "module": "Packet",
+      "data": {
+        "Number": 30
+      }
+    },
+    {
+      "module": "SHT31D_4",
+      "data": {
+        "temp": 19.79019,
+        "humid": 52.25757
+      }
+    },
+    {
+      "module": "TSL2591_5",
+      "data": {
+        "Vis": 694,
+        "IR": 437,
+        "Full": 1132
+      }
+    },
+    {
+      "module": "STEMMA_7",
+      "data": {
+        "temperature": 22.84167,
+        "capactive": 352
+      }
+    },
+    {
+      "module": "Analog",
+      "data": {
+        "Vbat": 4.336084,
+        "A[0]": 1583,
+        "A[1]": 1596,
+        "A[2]": 1614,
+        "A[3]": 1433,
+        "A[4]": 1626,
+        "A[5]": 1611
+      }
+    }
+  ]
+}
+
