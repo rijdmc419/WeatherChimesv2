@@ -16,7 +16,7 @@
      },\
     {\
       'name':'WiFi',\
-      'params':['NETGEAR33','tinybolt321']\
+      'params':['yournetwork','yourpassword']\
     }\
   ]\
 }"

@@ -49,8 +49,8 @@ LoomManager Loom{ &ModuleFactory };
 #define WINC_RST  4
 #define WINC_EN   2     // or, tie EN to VCC
 
-char ssid[] = "NETGEAR33";     //  your network SSID (name)
-char pass[] = "tinybolt321";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "yournetwork";     //  your network SSID (name)
+char pass[] = "yourpassword";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;                // your network key Index number (needed only for WEP)
 int status = WL_IDLE_STATUS;
 
@@ -58,8 +58,8 @@ int status = WL_IDLE_STATUS;
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "birds_of_paradice"
-#define AIO_KEY         "aio_YvTJ96zLSB6nuej2U8xgnXx6fW8D"
+#define AIO_USERNAME    "adafruitiousername"
+#define AIO_KEY         "adafruitiokey"
 
 /************ Global State (you don't need to change this!) ******************/
 
